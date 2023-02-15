@@ -7,12 +7,12 @@
   padding: 70px 0;
   height: 70px;
   background-image: url("banner.png");
-  max-width: 100%;
+  width: 100%;
   height: auto;
 }
 
 .logo {
-  max-width: 100%;
+  width: 100%;
   height: auto;
 }
 
@@ -22,7 +22,7 @@ ul.menu {
   padding: 0;
   overflow: hidden;
   background-color:  rgb(160, 119, 160);
-  max-width: 100%;
+  width: 100%;
 }
 
 ul.menu li{
@@ -70,7 +70,7 @@ color:#eabce5;
   font-size: xx-large;
   color: rgb(28, 46, 82);
   text-align: center;
-  max-width: 100%;
+  width: 100%;
 }
 
 ul.name {
@@ -250,7 +250,8 @@ background-color: rgb(114, 86, 114);
   background-color: rgb(204, 166, 204);
   padding: 0 10px 0 10px;
   margin-bottom: 10px;
-  max-height: auto;
+  width: 100%;
+  height: auto;
 }
 
 aside{
