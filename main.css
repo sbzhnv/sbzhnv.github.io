@@ -377,7 +377,7 @@ ul#quick_links li a:visited {
 color:rgb(225, 164, 255);
 }
 
-@media screen and (max-width: 480px) { 
+@media screen and (max-width: 600px) { 
   body, footer{
     width: 100%;
     }
