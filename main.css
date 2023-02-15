@@ -305,6 +305,7 @@ color:rgb(225, 164, 255);
 float:left; 
 width:25%; 
 padding-left: 15px;
+margin-bottom: 2px;
 }
 
 .quick_links{
@@ -318,6 +319,7 @@ margin-right: auto;
 float:right; 
 width:25%;
 text-align: center;
+padding-right: 15px;
 }
 
 footer.contacts{
@@ -335,13 +337,13 @@ width: 25%;
 
 ul#categories{
 list-style-type: none;
+padding-right: 30px;
 }
 
 ul#categories li a {
 display: block;
 color: rgb(189, 165, 200);;
 text-align: center;
-margin:1px;
 }
 
 ul#categories li a:hover {
@@ -366,7 +368,7 @@ ul#quick_links li a {
 display: inline-block;
 color: rgb(189, 165, 200);;
 text-align: center;
-margin: 1px;
+padding: 10px;
 }
 
 ul#quick_links li a:hover {
@@ -391,7 +393,7 @@ color:rgb(225, 164, 255);
     width: 100%;
   }
   .map{
-    max-width: 25%;
+    margin-bottom: 2px;
   }
   .image{
     width: 100%
