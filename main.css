@@ -389,7 +389,7 @@ color:rgb(225, 164, 255);
     width: 100%
   }
   #task, #requirements, #submission, #grading{
-    flex: 100%;
+    width: 100%;
   }
 }
 
