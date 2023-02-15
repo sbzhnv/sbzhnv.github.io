@@ -342,7 +342,7 @@ width: 25%;
 
 ul#categories{
 list-style-type: none;
-padding-right: 30px;
+padding-right: 10em;
 }
 
 ul#categories li a {
