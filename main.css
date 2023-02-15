@@ -139,7 +139,7 @@ left: 0;
 .right-lines:after{
 content:" ";
 height: 2px;
-width: 65%;
+width: 8em;
 background: rgb(194, 205, 226);
 display: block;
 position: absolute;
