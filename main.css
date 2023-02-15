@@ -380,13 +380,16 @@ color:rgb(225, 164, 255);
   }  
   .row{ 
     flex-direction: column; 
-    flex-wrap: wrap;
+    width: 100%;
   }
   .map{
-    width:50%;
+    max-width: 25%;
   }
   .image{
     width: 100%
+  }
+  #task, #requirements, #submission, #grading{
+    flex: 100%;
   }
 }
 
