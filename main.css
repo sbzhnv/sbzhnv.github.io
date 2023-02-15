@@ -249,6 +249,7 @@ background-color: rgb(114, 86, 114);
 
 #grading {
   flex: 40%;
+  box-sizing: border-box;
   background-color: rgb(204, 166, 204);
   padding: 0 10px 0 10px;
   margin-bottom: 10px;
