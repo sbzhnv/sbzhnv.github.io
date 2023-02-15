@@ -127,7 +127,7 @@ text-align: left;
 
 .left-lines:before{
 content:" ";
-height: 2px;
+height: 0.2em;
 width: calc(100% - 8em);
 background:rgb(204, 166, 204);
 display: block;
@@ -138,7 +138,7 @@ left: 0;
 
 .right-lines:after{
 content:" ";
-height: 2px;
+height: 0.2em;
 width: calc(100% - 8em);
 background: rgb(194, 205, 226);
 display: block;
