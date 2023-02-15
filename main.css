@@ -113,14 +113,14 @@ color: pink;
 
 .left-lines{
 position: relative;
-max-width: 1000px;
+max-width: 100%;
 margin: 10px auto;
 text-align: right;
 }
 
 .right-lines{
 position: relative;
-max-width: 1000px;
+max-width: 100%;
 margin: 10px auto;
 text-align: left;
 }
@@ -128,7 +128,7 @@ text-align: left;
 .left-lines:before{
 content:" ";
 height: 2px;
-width: 79%;
+width: 8em;
 background:rgb(204, 166, 204);
 display: block;
 position: absolute;
