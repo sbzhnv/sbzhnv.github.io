@@ -80,7 +80,6 @@ list-style-type: none
 }
 
 #task {
-width: 100%;
 padding-right: 10px;
 overflow: auto;
 }
