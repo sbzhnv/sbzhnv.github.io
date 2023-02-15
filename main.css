@@ -192,7 +192,7 @@ visibility: visible;
 opacity: 1;
 }
 
-#deadline ul{
+ul#deadline{
 list-style-type: none;
 background-color: #11163a;
 text-align: center;
