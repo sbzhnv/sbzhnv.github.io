@@ -380,6 +380,7 @@ color:rgb(225, 164, 255);
   }  
   .row{ 
     flex-direction: column; 
+    flex-wrap: wrap;
   }
   .map{
     width:50%;
