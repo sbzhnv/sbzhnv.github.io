@@ -128,7 +128,7 @@ text-align: left;
 .left-lines:before{
 content:" ";
 height: 2px;
-width: 8em;
+width: calc(100% + 40px);
 background:rgb(204, 166, 204);
 display: block;
 position: absolute;
@@ -139,7 +139,7 @@ left: 0;
 .right-lines:after{
 content:" ";
 height: 2px;
-width: 8em;
+width: calc(100% + 40px);
 background: rgb(194, 205, 226);
 display: block;
 position: absolute;
@@ -156,7 +156,7 @@ opacity: 1;
 display:block;
 margin-left: auto;
 margin-right: auto;
-margin-bottom: 2em;
+padding-bottom: 2em;
 width: 50%;
 height: auto;
 transition: .5s ease;
