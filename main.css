@@ -345,7 +345,9 @@ color:rgb(225, 164, 255);
 }
 
 footer.quick_links{
-width: 25%;
+width:100%;
+margin-left: auto;
+margin-right: auto;
 }
 
 ul#quick_links{
