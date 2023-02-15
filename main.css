@@ -128,7 +128,7 @@ text-align: left;
 .left-lines:before{
 content:" ";
 height: 0.2em;
-width: calc(100% - 8em);
+width: calc(100% - 7em);
 background:rgb(204, 166, 204);
 display: block;
 position: absolute;
