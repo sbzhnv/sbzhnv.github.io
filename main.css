@@ -12,8 +12,9 @@
 }
 
 .logo {
-  width: 100%;
-  height: auto;
+  width: 60%;
+  margin: auto;
+  display: block;
 }
 
 ul.menu {
@@ -372,7 +373,7 @@ ul#quick_links li a {
 display: inline-block;
 color: rgb(189, 165, 200);;
 text-align: center;
-padding: 10px;
+padding: 5px;
 }
 
 ul#quick_links li a:hover {
