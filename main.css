@@ -304,11 +304,11 @@ a.email:visited {
 color:rgb(225, 164, 255);
 }
 
-.map {
-float:left; 
-width:25%; 
+#map {
+float:left;
 padding-left: 15px;
 margin-bottom: 2px;
+width: 35vw;
 }
 
 .quick_links{
