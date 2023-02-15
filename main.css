@@ -233,6 +233,7 @@ background-color: rgb(114, 86, 114);
   background-color: rgb(204, 166, 204);
   margin-bottom: 10px;
   padding: 0 10px 0 10px;
+  width: 100%;
 }
 
 #submission {
@@ -242,6 +243,8 @@ background-color: rgb(114, 86, 114);
   margin-right: 10px;
   margin-bottom: 10px;
   padding: 0 10px 0 10px;
+  box-sizing: border-box;
+  width: 100%;
 }
 
 #grading {
@@ -250,14 +253,14 @@ background-color: rgb(114, 86, 114);
   padding: 0 10px 0 10px;
   margin-bottom: 10px;
   width: 100%;
-  height: auto;
 }
 
 aside{
-  width: 100%;
   padding: 15px;
+  box-sizing: border-box;
   background-color: rgb(139, 119, 178);
   margin-bottom: 10px;
+  width: 100%;
   }
 
 h5 {
@@ -267,15 +270,13 @@ h5 {
   margin-bottom: -10px;
 }
 
-h5.categories{
-  margin-right: 10em;
-}
-
 footer {
 background-color: #11163a;
 padding: 10px;
+box-sizing: border-box;
 float: left;
 text-align:center;
+width: 100%;
 }
 
 .contacts {
@@ -302,7 +303,7 @@ color:rgb(225, 164, 255);
 .map {
 float:left; 
 width:25%; 
-margin-left: 3wv;
+padding-left: 15px;
 }
 
 .quick_links{
@@ -380,6 +381,7 @@ color:rgb(225, 164, 255);
     width: 100%;
     }
   ul.menu{
+    direction: column; 
     width: 100%;
     display: block;
   }  
