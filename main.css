@@ -128,7 +128,7 @@ text-align: left;
 .left-lines:before{
 content:" ";
 height: 2px;
-width: calc(100% - (1.4em * 7));
+width: calc(100% - 1.4em);
 background:rgb(204, 166, 204);
 display: block;
 position: absolute;
@@ -139,7 +139,7 @@ left: 0;
 .right-lines:after{
 content:" ";
 height: 2px;
-width: calc(100% - (1.4em * 12));
+width: calc(100% - 1.4em);
 background: rgb(194, 205, 226);
 display: block;
 position: absolute;
