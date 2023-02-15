@@ -308,7 +308,7 @@ color:rgb(225, 164, 255);
 
 #map {
 float:left;
-padding-left: 15px;
+padding-left: 10px;
 margin-bottom: 2px;
 width: 35vw;
 }
@@ -397,9 +397,6 @@ color:rgb(225, 164, 255);
     flex-direction: column; 
     width: 100%;
   }
-  .map{
-    margin-bottom: 2px;
-  }
   .image{
     width: 100%
   }
@@ -407,6 +404,12 @@ color:rgb(225, 164, 255);
     flex: 100%;
     flex-direction: column; 
     width: 100%;
+  }
+  h5 {
+    font-size: 1em;
+  }
+  p#contacts, ul#categories, ul#quick_links{
+    font-size: 0.8em;
   }
 }
 
