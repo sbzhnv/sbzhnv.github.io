@@ -267,6 +267,10 @@ h5 {
   margin-bottom: -10px;
 }
 
+h5.categories{
+  margin-right: 10em;
+}
+
 footer {
 background-color: #11163a;
 padding: 10px;
@@ -298,7 +302,7 @@ color:rgb(225, 164, 255);
 .map {
 float:left; 
 width:25%; 
-margin-left: 30px;
+margin-left: 3wv;
 }
 
 .quick_links{
