@@ -397,7 +397,7 @@ color:rgb(225, 164, 255);
     flex-direction: column; 
     width: 100%;
   }
-  .image{
+  .image, #task img{
     width: 100%
   }
   #task, #requirements, #submission, #grading{
