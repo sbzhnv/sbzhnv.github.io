@@ -408,11 +408,11 @@ color:rgb(225, 164, 255);
   h5 {
     font-size: 1em;
   }
-  ul#categories, ul#quick_links{
+  p.contacts, ul#categories, ul#quick_links{
     font-size: 0.8em;
   }
-  #contacts p{
-    font-size: 0.8em;
+  ul#categories{
+    padding: 15px;
   }
    ul.menu li a {
     text-align: center;
