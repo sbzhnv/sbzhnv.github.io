@@ -408,7 +408,7 @@ color:rgb(225, 164, 255);
   h5 {
     font-size: 1em;
   }
-  p.contacts, ul#categories, ul#quick_links{
+  #contacts, ul#categories, ul#quick_links{
     font-size: 0.8em;
   }
   ul#categories{
