@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Personal Website</title>
+  <link href="styles.css" rel="stylesheet" type="text/css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
+  <script src="https://kit.fontawesome.com/464c9dd56f.js" crossorigin="anonymous"></script>
+  <script src="https://d3js.org/d3.v5.min.js"></script>
+</head>
+
+<body>
+<div id="header">
+  <div class="container">
+    <div class="scroll-up-btn">
+      <i class="fas fa-angle-up"></i>
+    </div>
+    <nav>
+      <img src="images/logo.png" class="logo">
+      <ul id="sidemenu">
+        <li><a href="#header">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#achievements">Achievements</a></li>
+        <li><a href="#extracurricular">Extracurricular Activities</a></li>
+        <li><a href="#iGEM">iGEM</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+      </ul>
+      <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+    </nav>
+    <div class="header-text">
+      <p>3rd year Biological Sciences Student</p>
+      <h1>Hello, My name is<br><span>Guldana</span> Sabizhanova</h1>
+      <h2>I am a <span class="typing">NU Student</span></h2> <!--Ask-->
+  </div>
+</div>
+
+<!-----------------About------------------->
+<div id="about">
+  <div class="container">
+    <div class="row">
+      <div class="about-col-1">
+        <img src="images/user.JPG">
+      </div>
+      <div class="about-col-2">
+        <h2 class="sub-title">About Me</h2>
+        <p style="font-size: 1.5rem;">A hardworking and responsible BSc
+          Biological Sciences student, willing to
+          step outside of her comfort zone and
+          test her limits. Open to acquiring new
+          skills and valuable experience
+          through working in the team.</p>
+
+        <div class="tab-titles">
+          <p class="tab-links active-link" onclick="opentab('skills')"><span class="bolded">Skills</span></p>
+          <p class="tab-links" onclick="opentab('experience')"><span class="bolded">Experience</span></p>
+          <p class="tab-links" onclick="opentab('education')"><span class="bolded">Education</span></p>
+        </div>
+
+      <div class="tab-contents active-tab" id="skills">
+        <ul>
+          <li style="font-size: 1.3rem;"><span class="bolded">Wet Lab</span><br>Biological Experiments</li>
+          <li style="font-size: 1.3rem;"><span class="bolded">Visual Content</span><br>Graphic Designing</li>
+          <li style="font-size: 1.3rem;"><span class="bolded">Web Development</span><br>HTML, CSS, JS</li>
+        </ul>
+      </div>
+
+      <div class="tab-contents" id="experience">
+        <ul>
+          <li style="font-size: 1.3rem;"><span class="bolded">2022 - 2023</span><br>Member of HIP&PE branch in iGEM NU_Kazakhstan</li>
+          <li style="font-size: 1.3rem;"><span class="bolded">2020 - 2021</span><br>Translator in Khan Academy Qazaq</li>
+          <li style="font-size: 1.3rem;"><span class="bolded">2019 - 2020</span><br>Chemistry Tutor</li>
+        </ul>
+      </div>
+
+      <div class="tab-contents" id="education">
+        <ul>
+          <li style="font-size: 1.3rem;"><span class="bolded">2020 - Current</span><br>Nazarbayev University</li>
+          <li style="font-size: 1.3rem;"><span class="bolded">2018</span><br>SolBridge in Daejon</li>
+          <li style="font-size: 1.3rem;"><span class="bolded">2017</span><br>AKCENT in Prague</li>
+          <li style="font-size: 1.3rem;"><span class="bolded">2016</span><br>IILAC in Vancouver</li>
+          <li style="font-size: 1.3rem;"><span class="bolded">2015 - 2020</span><br>NIS CBD in Almaty</li>
+          <li style="font-size: 1.3rem;"><a href="pages/education.html">More about Current Education</a></li>
+        </ul>
+      </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-----------------Achievements------------------->
+<div id="achievements">
+  <div class="container">
+    <h2 class="sub-title">My Achievements</h2>
+    <div class="achievements-list">
+      <div>
+        <i class="fa-solid fa-mobile-button"></i>
+        <h3>Technovation Challenge 2017</h3>
+        <p>I was a member of "Geeks in Pink" team. Our mobile application "MyMotivation" was nominated as "Top-10 applications created by Kazakhstani school students" according to the Popular Science publication <a href="https://oyla.xyz/article/top-10-prilozenij-sozdannyh-kazahstanskimi-skolnicami">OYLA</a>.</p>
+      </div>
+
+      <div>
+        <i class="fa-solid fa-apple-whole"></i>
+        <h3>Almaty branch of the League of Volunteers of Kazakhstan</h3>
+        <p>I was a volunteer. I have participated at such events as Festival in honour of the Samsung
+          Galaxy S9|S9+ presentation (2018).
+          FISU World University Futsal
+          Championship in Almaty (2018).</p>
+      </div>
+
+      <div>
+        <i class="fa-solid fa-crown"></i>
+        <h3>NIS Burymdy Aruy</h3>
+        <p>I was a participant of school beauty peagant. I have received Сertificate of Honour holder for the 2nd place.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-----------------Extracurricular Activities------------------->
+<div id="extracurricular">
+  <div class="container">
+    <h2 class="sub-title">My Extracurricular Activities</h2>
+    <h3>Art</h3>
+    <div class="iframe-container">
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/2IUTknGQ0w0?autoplay=1&mute=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </div>
+    <h3>Video for the Technovation Challenge 2017</h3>
+    <div class="iframe-container-2">
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/GOUQoLELzPg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </div>
+  </div>
+</div>
+
+<!-----------------iGEM------------------->
+<div id="iGEM">
+  <div class="container">
+    <h2 class="sub-title">iGEM</h2>
+    <div class="iGEM-list">
+      <div class="iGEM">
+        <img src="images/iGEM.png">
+        <div class="layer">
+          <h3>iGEM or International Genetically Engineered Machine</h3>
+          <p>I was a part of iGEM NU_Kazakhstan 2022 team. Check out our work.</p>
+        </div>
+      </div>
+    </div>
+    <a href="https://2022.igem.wiki/nu-kazakhstan/" class="btn">See More</a>
+  </div>
+</div>
+
+<!-----------------Contact------------------->
+<div id="contact">
+  <div class="container">
+    <div class="row">
+      <div class="contact-left">
+        <h2 class="sub-title">Contact Me</h2>
+        <p><i class="fa-solid fa-envelope"></i> guldana.sabizhanova@nu.edu.kz</p>
+        <p><i class="fa-solid fa-phone"></i> +77029753242</p>
+        <div class="social-icons">
+          <a href="https://www.instagram.com/sbzhnv/"><i class="fa-brands fa-instagram"></i></a>
+          <a href="https://vk.com/g.sabizhanova"><i class="fa-brands fa-vk"></i></a>
+          <a href="https://www.youtube.com/channel/UCM6YOEgvq0DqcLeCAzaQezg"><i class="fa-brands fa-youtube"></i></a>
+          <a href="https://www.linkedin.com/in/guldana-sabizhanova/"><i class="fa-brands fa-linkedin"></i></a>
+        </div>
+        <a href="images/my-cv.pdf" download class="btn btn2">Download CV</a>
+      </div>
+      <div class="contact-right">
+        <form name="submit-to-google-sheet">
+          <input type="text" name="Name" placeholder="Your Name" required>
+          <input type="email" name="Email" placeholder="Your Email" required>
+          <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+          <button type="submit" class="btn btn2">Submit</button>
+        </form>
+        <span id="msg"></span>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script src="main.js"></script>
+</body>
+</html>
